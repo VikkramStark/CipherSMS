@@ -1,8 +1,9 @@
+
 from encryption import encrypt, decrypt 
 from flask import Flask, request, jsonify 
 from RPi import GPIO 
 
-GPIO.setmode(GPIO.BOARD) 
+# GPIO.setmode(GPIO.BOARD) 
 
 app = Flask(__name__) 
 
